@@ -1,5 +1,5 @@
 import React ,{Component} from "react"
-
+import './App.css'
 class Header extends Component {
 	render(){
 
@@ -8,7 +8,10 @@ class Header extends Component {
 
 		return(
 			<div>
-				<div>Header {(isLoggedIn) ? currentUser : ""} </div>
+				<div className="App-header" onClick={()=>{alert(555)}}>
+					React App 
+					<div id="user"> {(isLoggedIn) ? currentUser : ""} </div>
+				</div>
 				
 			</div>
 		)

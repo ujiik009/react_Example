@@ -7,9 +7,7 @@ class App extends Component {
     return (
       <div>
         <Header currentUser="apirat" isLoggedIn={true}/>
-        <Header currentUser="ball" isLoggedIn={false}/>
-        <Header/>
-        <Header/>
+          
         <div>Hello</div>
         <Footer/>
       </div>
